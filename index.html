@@ -1,88 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Гиперссылки и формы</title>
-  </head>
-  <body>
-     <form action="/"
-      method="POST">
-  <h2>Гиперссылки</h2>
-    <ol>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-     </ol>
-      <h2>Формы</h2>
-      <ol>
-        <li><label>
-          <input name="field-name-1"
-            value="Имя" />
-        </label></li>
-          
-        <li><label>
-         <input name="field-email"
-           type="email"
-           placeholder="Введите вашу почту" />
-         </label></li>
-          
-          <li><label>
-        Дата рождения:<br />
-        <input name="field-date"
-          value="2003-10-19"
-          type="date" />
-      </label></li>
-            
-          <li><label>Выбeрете пол:<br />
-      <input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        Мужское</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        Женское</label></li>
-            
-       
-          <li><label>Сколько конечностей:<br/>
-      <input type="radio" checked="checked"
-        name="radio-group-2" value="Значение1" />
-        1</label>
-      <label><input type="radio"
-        name="radio-group-2" value="Значение2" />
-        2</label>
-       <label><input type="radio" checked="checked"
-        name="radio-group-2" value="Значение3" />
-        3</label>
-       <label><input type="radio" checked="checked"
-        name="radio-group-2" value="Значение4" />
-        4</label>
-              </li>
-        
-         <li><label>
-        Суперспособности:<br />
-        <select name="field-name-4[]"
-          multiple="multiple">
-          <option value="Значение1">Бессмертие</option>
-          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
-          <option value="Значение3" selected="selected">Левитация</option>
-        </select>
-      </label></li>
-        
-         <li><label>
-        Биография:<br />
-        <textarea name="field-name-2"> </textarea>
-      </label></li>
-       
-         
-      <li><label><input type="checkbox" checked="checked"
-        name="check-1" />
-        с контантом ознакомлен(а)</label></li>
-        
-         <li><input type="submit" value="Отправить" /></li>
-    </form>
 
-       </ol>
-        
+<head>
+	<title>Гиперссылки и формы</title>
+</head>
+
+<body>
+	<form action="/" method="POST">
+		<h2>Гиперссылки</h2>
+		<ol>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		<h2>Формы</h2>
+		<ol>
+			<li>
+				<label>
+					<input name="field-name-1" value="Имя" /> </label>
+			</li>
+			<li>
+				<label>
+					<input name="field-email" type="email" placeholder="Введите вашу почту" /> </label>
+			</li>
+			<li>
+				<label> Дата рождения:
+					<br />
+					<input name="field-date" value="2003-10-19" type="date" /> </label>
+			</li>
+			<li>
+				<label>Выбeрете пол:
+					<br />
+					<input type="radio" checked="checked" name="radio-group-1" value="Значение1" /> Мужское</label>
+				<label>
+					<input type="radio" name="radio-group-1" value="Значение2" /> Женское</label>
+			</li>
+			<li>
+				<label>Сколько конечностей:
+					<br/>
+					<input type="radio" checked="checked" name="radio-group-2" value="Значение1" /> 1</label>
+				<label>
+					<input type="radio" name="radio-group-2" value="Значение2" /> 2</label>
+				<label>
+					<input type="radio" checked="checked" name="radio-group-2" value="Значение3" /> 3</label>
+				<label>
+					<input type="radio" checked="checked" name="radio-group-2" value="Значение4" /> 4</label>
+			</li>
+			<li>
+				<label> Суперспособности:
+					<br />
+					<select name="field-name-4[]" multiple="multiple">
+						<option value="Значение1">Бессмертие</option>
+						<option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+						<option value="Значение3" selected="selected">Левитация</option>
+					</select>
+				</label>
+			</li>
+			<li>
+				<label> Биография:
+					<br />
+					<textarea name="field-name-2"> </textarea>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" checked="checked" name="check-1" /> с контантом ознакомлен(а)</label>
+			</li>
+			<li>
+				<input type="submit" value="Отправить" />
+			</li>
+
+	 </ol>
+ </form>
 </body>
 
 </html>
