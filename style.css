@@ -1,1 +1,27 @@
+#body{
+    margin:0 auto;
+}
+#header{
+    color:crimson;
+     width:100%;
+     background-color:greenyellow;
+     padding: 10px;
+     height:120px;
+   
+}
+.picture{
+    float:left; 
+    margin:10px; 
+    width:100px; 
+    height:100px;}
+#nav{
+    color:brown;
+    max-width:800px;
+    background-color:coral;
+    margin: 0 auto;
+    margin-top:20px;
+    padding:10px;
+}
+#footer{
 
+}
