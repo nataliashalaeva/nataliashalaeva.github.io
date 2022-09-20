@@ -1,62 +1,75 @@
-.body{
-    background-color:aliceblue;
+.body {
+	background-color: aliceblue;
 }
-#header{
-    font-size: large;
-    color:teal;
-    width:100%;
-    background-color:darkkhaki;
-    padding:20px;
-    height:120px;
+
+#header {
+	font-size: large;
+	color: teal;
+	width: 100%;
+	background-color: darkkhaki;
+	padding: 20px;
+	height: 120px;
 }
-.picture{
-    padding:10px 10px 10px 225px;
-    float:left;
-    margin-right:10px; 
-    width:120px; 
-    height:120px;}
-        
-#menu li{
-    display:inline-block; 
+
+.picture {
+	padding: 10px 10px 10px 225px;
+	float: left;
+	margin-right: 10px;
+	width: 120px;
+	height: 120px;
 }
+
+#menu li {
+	display: inline-block;
+}
+
 #menu a {
-    display: block;
-    padding: 5px 15px;
-    color: #fff;
-    text-decoration: none;
-    }
-#menu{
-    color:darkslateblue;
-    max-width:960px;
-    background-color:darkseagreen;
-    margin: 0 auto;
-    margin-top:20px;
-    padding:10px;
-    }
-#nav{
-    color:darkolivegreen;
-    max-width:960px;
-    background-color:darkseagreen;
-    margin: 0 auto;
-    text-decoration: none; 
-    margin-top:20px;
-    padding:10px;
+	display: block;
+	padding: 5px 15px;
+	color: #fff;
+	text-decoration: none;
 }
-#nav a{
-    text-decoration: none; 
-    color:saddlebrown
+
+#menu {
+	color: darkslateblue;
+	max-width: 960px;
+	background-color: darkseagreen;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
 }
-tr:nth-child(even) { background:burlywood; }
-tr:nth-child(odd) { background:cadetblue; }
+
+#nav {
+	color: darkolivegreen;
+	max-width: 960px;
+	background-color: darkseagreen;
+	margin: 0 auto;
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: saddlebrown
+}
+
+tr:nth-child(even) {
+	background: burlywood;
+}
+
+tr:nth-child(odd) {
+	background: cadetblue;
+}
 
 
 #footer {
-  background-color:bisque;
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   text-align: center; 
-   width: 100%;   
-   font-size: 19px;
-  color:darkolivegreen;  
- }
+	background-color: bisque;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 19px;
+	color: darkolivegreen;
+}
