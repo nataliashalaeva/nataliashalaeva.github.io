@@ -2,7 +2,7 @@
 	background-color: aliceblue;
 }
 
-#header {
+юheader {
 	font-size: large;
 	color: teal;
 	width: 100%;
@@ -39,7 +39,7 @@
 	padding: 10px;
 }
 
-#nav {
+.nav {
 	color: darkolivegreen;
 	max-width: 960px;
 	background-color: darkseagreen;
@@ -49,7 +49,7 @@
 	padding: 10px;
 }
 
-#nav a {
+.nav a {
 	text-decoration: none;
 	color: saddlebrown
 }
